@@ -1,0 +1,9 @@
+*.egg-info/
+*.pyc
+
+__pycache__/
+node_modules/
+.vscode/
+
+/build/
+/target/
