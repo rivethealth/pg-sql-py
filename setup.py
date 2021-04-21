@@ -4,7 +4,7 @@ import os
 import setuptools
 
 version = {}
-with open("pgsql/version.py", "r") as f:
+with open("pg_sql/version.py", "r") as f:
     exec(f.read(), version)
 
 with open("README.md", "r") as f:
@@ -23,10 +23,10 @@ setuptools.setup(
     extras_require={"dev": ["black", "isort"]},
     long_description=long_description,
     long_description_content_type="text/markdown",
-    name="pgsql",
+    name="pg_sql",
     packages=setuptools.find_packages(),
     project_urls={
-        "Issues": "https://github.com/rivethealth/pgsql/issues",
+        "Issues": "https://github.com/rivethealth/pg-sql-py/issues",
     },
     python_requires=">3.7.0",
     url="https://github.com/rivethealth/pgsql",

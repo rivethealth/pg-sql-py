@@ -18,7 +18,7 @@ RPAREN := )
 # Clean
 ###
 
-TARGET := pgsql.egg-info build target
+TARGET := pg_sql.egg-info build target
 
 .PHONY: clean
 clean:
